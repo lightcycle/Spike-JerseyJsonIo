@@ -1,0 +1,25 @@
+*.class
+*.jar
+*.war
+*.ear
+*.db
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea
+*.iml
+
+# Mac
+.DS_Store
+
+# Gradle
+build/
+.gradle/
+
+# Maven
+log/
+target/

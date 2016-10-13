@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'org.lightcycle.spike.jerseyjsonio.App'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.eclipse.jetty:jetty-server:9.2.3.v20140905'
+    compile 'org.eclipse.jetty:jetty-servlet:9.2.3.v20140905'
+    compile 'org.glassfish.jersey.core:jersey-server:2.23.2'
+    compile 'org.glassfish.jersey.containers:jersey-container-servlet-core:2.23.2'
+    compile 'org.glassfish.jersey.containers:jersey-container-jetty-http:2.23.2'
+    compile 'com.cedarsoftware:json-io:4.8.0'
+    compile 'commons-io:commons-io:2.5'
+
+    testCompile 'junit:junit:4.12'
+}
